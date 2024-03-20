@@ -1,0 +1,11 @@
+name: nosql_env
+channels:
+  - defaults
+dependencies:
+  - pip=23.3.1
+  - python=3.11.8
+  - pip:
+      - pymongo==4.6.2
+      - requests==2.31.0
+      - pandas==2.2.1
+
